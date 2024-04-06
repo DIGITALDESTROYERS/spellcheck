@@ -2,7 +2,6 @@
 #include <vector>
 using namespace std;
 #include "trie.h"
-#include "dictionary.h"
 #define UNDERLINE_ON "\033[4m" 
 #define UNDERLINE_OFF "\033[0m"
 int main()
