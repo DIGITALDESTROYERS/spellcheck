@@ -4,7 +4,7 @@ struct TrieNode
 {
     bool iscomplete= false;
     TrieNode* children[26]={NULL};
-}
+};
 class Trie
 {
     TrieNode* root = NULL;
@@ -14,4 +14,4 @@ class Trie
     bool searchword(string word);
     bool deleteword(string word);
     bool updateword(string oldword, string newword);
-}
+};
