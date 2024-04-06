@@ -40,7 +40,6 @@ bool Trie::deleteword(string word)
 }
 void Trie::updateword(string oldword, string newword)
 {
-    this->deleteNode(oldword);
-    this->insertword(newword);
-    
+    this->deleteword(oldword);
+    this->insertword(newword); 
 }
